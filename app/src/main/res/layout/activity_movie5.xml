@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Movie5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-381dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="96dp"
+                android:layout_height="91dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Cinema Critique!"
+                android:textColor="#5B2AE3"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="46dp"
+                android:text="Army Of The Dead"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="
+                 From filmmaker Zack Snyder (300, Zack Snyder's Justice League), ARMY OF THE DEAD takes place following a zombie outbreak that has left Las Vegas in ruins and walled off from the rest of the world. When Scott Ward (Dave Bautista), a displaced Vegas local, former zombie war hero who's now flipping burgers on the outskirts of the town he now calls home, is approached by casino boss Bly Tanaka (Hiroyuki Sanada), it's with the ultimate proposition: Break into the zombie-infested quarantine zone to retrieve $200 million sitting in a vault beneath the strip before the city is nuked by the government in 32 hours. Driven by the hope that the payoff could help pave the way to a reconciliation with his estranged daughter Kate (Ella Purnell), Ward takes on the challenge, assembling a ragtag team of experts for the heist. They include Maria Cruz (Ana de la Reguera), an ace mechanic and Ward's old friend; Vanderohe (Omari Hardwick), a zombie killing machine; Marianne Peters (Tig Notaro), a cynical helicopter pilot; Mikey Guzman (Raúl Castillo), a go-for-broke influencer and Chambers (Samantha Win), his ride-or-die; Martin (Garret Dillahunt), the casino's head of security; a badass warrior known as the Coyote (Nora Arnezeder) who recruits Burt Cummings (Theo Rossi), a slimy security guard; and a brilliant German safe cracker named Dieter (Matthias Schweighöfer). Scott finds an unexpected emotional hurdle when Kate joins the expedition to search for Geeta (Huma S. Qureshi), a mother who's gone missing inside the city. With a ticking clock, a notoriously impenetrable vault, and a smarter, faster horde of Alpha zombies closing in, only one thing's for certain in the greatest heist ever attempted: survivors take all.
+
+    \n\nRating:
+    \nR (Some Sexual Content|Gore|Language Throughout|Graphic Nudity|Strong Bloody Violence)
+    \n\nGenre:
+    \nhorror, action, adventure, crime
+    \n\nOriginal Language:
+    \nEnglish
+    \n\nDirector:
+    \nZack Snyder
+    \n\nProducer:
+    \nDeborah Snyder, Wesley Coller, Zack Snyder
+    \n\nWriter:
+    \nZack Snyder, Shay Hatten, Joby Harold
+    \n\nRelease Date (Theaters):
+    \nMay 14, 2021  wide
+    \n\nRelease Date (Streaming):
+    \nMay 21, 2021
+    \n\nRuntime:
+    \n2h 28m
+    \n\nProduction Co:
+    \nThe Stone Quarry
+    \n\nSound Mix:
+    \nDolby Atmos\n\n
+
+    Movie Reviews:
+
+
+
+    \n\nA familiar premise is redeemed by a nifty gimmick in this suspenseful horror thriller.
+    \nMarch 5, 2020 | Full Review…
+
+\nJ. R. Jones
+\nChicago Reader
+
+    \n\nJohn Krasinski the writer, director, and star, has really found an interesting way to get at the problems around how to handle not having sound in a film.
+    \nMarch 4, 2019 | Full Review…
+
+\ntt stern-enzi
+\nWXIX-TV (Cincinnati, OH)
+
+    \n\nBut the difficulty does not lie in the lack of verbiage, but in our prohibitions. We're an ableist society, often fearful of the journey that comes with empathizing with the deaf.
+    \nAugust 27, 2018 | Rating: 3.5/4 | Full Review…
+
+\nRobert Daniels
+\n812filmreviews
+
+    \n\nSure, it's just a movie but A Quiet Place is so effective that you'll be deathly afraid of making a sound - just like the main characters.
+    \nApril 25, 2018 | Rating: 9/10 | Full Review…
+
+\nPerri Nemiroff
+\nCollider Video\n\n
+
+                "
+                android:textAllCaps="false"
+                android:textColor="#0066FF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/activity_main_youtubePlayerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:autoPlay="false"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                app:showFullScreenButton="true"
+                app:videoId="tI1JGPhYBS8" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Your Rating"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/activity_main_youtubePlayerView" />
+
+            <RatingBar
+                android:id="@+id/rating_rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:numStars="5"
+                android:stepSize=".5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:text="Submit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rating_rating_bar" />
+
+            <TextView
+                android:id="@+id/rating_display_text_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/submit_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="9dp"
+                android:text="Your rating will appear here"
+                app:layout_constraintBottom_toTopOf="@+id/submit_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rating_rating_bar" />
+
+            <Button
+                android:id="@+id/save_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="save data"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext3" />
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/submit_button"
+                tools:text="Leave A Review Below!" />
+
+            <EditText
+                android:id="@+id/edittext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview3" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="415dp"
+                android:layout_height="217dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:srcCompat="@drawable/aotd" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Movie2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-381dp">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="417dp"
+                android:layout_height="247dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView3"
+                app:srcCompat="@drawable/aqp2" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Your Rating"
+                android:textSize="25dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/activity_main_youtubePlayerView" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="96dp"
+                android:layout_height="91dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:srcCompat="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="Cinema Critique!"
+                android:textColor="#5B2AE3"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                app:layout_constraintStart_toEndOf="@+id/imageView3"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="A Quiet Place Part 2"
+                android:textSize="20dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/imageView8" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Following the deadly events at home, the Abbott family must now face the terrors of the outside world as they continue their fight for survival in silence. Forced to venture into the unknown, they quickly realize that the creatures that hunt by sound are not the only threats that lurk beyond the sand path.
+
+            \n\n\nRating:
+            \nPG-13 (Terror|Bloody/Disturbing Images|Violence)
+            \n\nGenre:
+            \nmystery and thriller, horror
+            \n\nOriginal Language:
+            \nEnglish
+            \n\nDirector:
+            \nJohn Krasinski
+            \n\nProducer:
+            \nMichael Bay, Andrew Form, Brad Fuller, John Krasinski
+            \n\nWriter:
+            \nJohn Krasinski
+            \n\nRelease Date (Theaters):
+            \nMay 28, 2021  wide
+            \n\nRuntime:
+            \n1h 37m
+            \n\nProduction Co:
+            \nSunday Night, Buffalo FilmWorks, Platinum Dunes, Paramount Pictures
+            \nAspect Ratio:
+            \nScope (2.35:1)\n\n
+
+            Movie Reviews:
+
+
+
+    \n\nA familiar premise is redeemed by a nifty gimmick in this suspenseful horror thriller.
+    \nMarch 5, 2020 | Full Review…
+
+\nJ. R. Jones
+\nChicago Reader
+
+    \n\nJohn Krasinski the writer, director, and star, has really found an interesting way to get at the problems around how to handle not having sound in a film.
+    \nMarch 4, 2019 | Full Review…
+
+\ntt stern-enzi
+\nWXIX-TV (Cincinnati, OH)
+
+    \n\nBut the difficulty does not lie in the lack of verbiage, but in our prohibitions. We're an ableist society, often fearful of the journey that comes with empathizing with the deaf.
+    \nAugust 27, 2018 | Rating: 3.5/4 | Full Review…
+
+\nRobert Daniels
+\n812filmreviews
+
+    \n\nSure, it's just a movie but A Quiet Place is so effective that you'll be deathly afraid of making a sound - just like the main characters.
+    \nApril 25, 2018 | Rating: 9/10 | Full Review…
+
+\nPerri Nemiroff
+\nCollider Video\n\n"
+                android:textAllCaps="false"
+                android:textColor="#0066FF"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/activity_main_youtubePlayerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                app:autoPlay="false"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView15"
+                app:showFullScreenButton="true"
+                app:videoId="BpdDN9d9Jio" />
+
+            <RatingBar
+                android:id="@+id/rating_rating_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="4dp"
+                android:numStars="5"
+                android:stepSize=".5"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textView16" />
+
+            <Button
+                android:id="@+id/submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginTop="40dp"
+                android:text="Submit"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rating_rating_bar" />
+
+            <TextView
+                android:id="@+id/rating_display_text_View"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/submit_button"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="9dp"
+                android:text="Your rating will appear here"
+                app:layout_constraintBottom_toTopOf="@+id/submit_button"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/rating_rating_bar" />
+
+            <Button
+                android:id="@+id/save_button3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="8dp"
+                android:text="save data"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/edittext3" />
+
+            <TextView
+                android:id="@+id/textview3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:textSize="30sp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/submit_button"
+                tools:text="Leave A Review Below!" />
+
+            <EditText
+                android:id="@+id/edittext3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="13dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
